@@ -1,3 +1,16 @@
 body {
-    background-color: gray;
+    background-color: #272629;
+    color: white;
+}
+
+.objects {
+    display: flex;
+}
+
+#earth {
+    background-image: url("/images/Earth-Border.jpg");
+}
+
+#moon {
+    background-image: url("/images/Moon-Border.jpg");
 }
