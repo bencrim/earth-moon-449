@@ -4,6 +4,9 @@ body {
     margin: 100px auto;
     width: 60%;
     max-width: 675px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .objects {
@@ -13,7 +16,8 @@ body {
 }
 
 p {
-    margin-bottom: 75px;
+    max-height: 175px;
+    min-height: 175px;
 }
 
 a {
