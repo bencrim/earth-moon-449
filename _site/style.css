@@ -1,16 +1,36 @@
 body {
-    background-color: #272629;
+    background-color: #181818;
     color: white;
+    margin: 100px auto;
+    width: 60%;
+    max-width: 675px;
 }
 
 .objects {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p {
+    margin-bottom: 75px;
+}
+
+a {
+    text-decoration: none;
+    
 }
 
 #earth {
-    background-image: url("/images/Earth-Border.jpg");
+    background-image: url("/images/Earth.png");
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
 }
 
 #moon {
-    background-image: url("/images/Moon-Border.jpg");
+    background-image: url("/images/Moon.png");
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
